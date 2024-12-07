@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // Import Bootstrap JS
 import "./Hero.css";
-import vid from "./vid.mp4";
+//import vid from "./vid.mp4";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
       {/* Hero Section with Video */}
       <div className="hero-video-section">
         <video autoPlay muted loop playsInline>
-          <source src={vid} type="video/mp4" />
+          <source src="vid " type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="text-white">
