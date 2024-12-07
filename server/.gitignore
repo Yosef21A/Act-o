@@ -4,8 +4,6 @@
 /node_modules
 
 # dotenv environment variables file
-.env
-
 # Logs
 logs
 *.log
@@ -59,7 +57,6 @@ jspm_packages
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 
 # next.js build output
 .next
